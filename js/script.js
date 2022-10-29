@@ -71,8 +71,8 @@ document.querySelector("a#shareLink").addEventListener("click", async (e) => {
   const image = await file("./img/image.png", "image");
   const data = {
     title: "Flyer sou Flamengo até o final!",
-    text: "Tenha seu flyer personalizado com seu nome para apoiar o mengão na alibertadores:",
-    url: "https://alvaroreis.github.io/bolsonaro2turno/",
+    text: "SOU FLAMENGO ATÉ O FIM! Gere este flyer personalizado com seu nome para apoiar o MENGÃO na libertadores:",
+    url: "https://simplesmentedan.github.io/flanalibertadores/",
     files: [image],
   };
   await share(data);
